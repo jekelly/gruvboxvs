@@ -5,6 +5,22 @@ VisualStudioVersion = 17.1.31918.345
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gruvboxvs", "gruvboxvs\gruvboxvs.csproj", "{3945945C-28B4-4711-87C6-537A8361B0B0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{83D7BF34-3309-4D3C-B375-7F07D4C509E5}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "media", "media", "{EC19BD1D-9D16-4DC7-BB5F-CA7D6CA8907E}"
+	ProjectSection(SolutionItems) = preProject
+		media\dark-hard.png = media\dark-hard.png
+		media\dark-med.png = media\dark-med.png
+		media\dark-soft.png = media\dark-soft.png
+		media\light-hard.png = media\light-hard.png
+		media\light-med.png = media\light-med.png
+		media\light-soft.png = media\light-soft.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +40,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC19BD1D-9D16-4DC7-BB5F-CA7D6CA8907E} = {83D7BF34-3309-4D3C-B375-7F07D4C509E5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15AC78DE-F2BC-4F71-AEAF-C9460AA2BA35}

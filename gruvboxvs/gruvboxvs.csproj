@@ -63,9 +63,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="testfiles\csharp.cs" />
-    <None Include="media\*.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="dark-hard.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="gruvbox-hard-dark.pkgdef">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
@@ -95,10 +98,9 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="LICENSE.txt">
-      <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />
