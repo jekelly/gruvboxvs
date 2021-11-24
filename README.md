@@ -6,8 +6,6 @@ Ported using the [theme-converter-for-vs](https://github.com/microsoft/theme-con
 
 Contains 6 themes: Soft, Medium and Hard variants across both Light and Dark.
 
-## Light
-
 ## Hard
 ![dark-hard](/media/dark-hard.png)
 ![light-hard](/media/light-hard.png)
